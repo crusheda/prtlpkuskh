@@ -12,14 +12,14 @@
                             <h1 class="text-capitalize display-6 mb-2" data-aos="fade-up" data-aos-delay="200">Portal Pintar, Kerja Lancar, Transformasi Digital Gencar</h1>
                             <p class="m-0" data-aos="fade-up" data-aos-delay="300"> Dengan akses cepat menuju sistem yang dibutuhkan, pekerjaan menjadi lebih lancar, efisien, dan menyenangkan.
                                 Bersama-sama, mari kita gunakan teknologi untuk meningkatkan kinerja dan pelayanan kepada pasien. </p>
-                            <ul class="nk-btn-group gap-1 gap-sm-2 justify-content-center pt-5" data-aos="fade-up" data-aos-delay="400">
+                            {{-- <ul class="nk-btn-group gap-1 gap-sm-2 justify-content-center pt-5" data-aos="fade-up" data-aos-delay="400">
                                 <li>
                                     <a href="#" class="btn btn-dark align-items-center"> Get started for free </a>
                                 </li>
                                 <li>
                                     <a href="#" class="btn btn-outline-dark border-0"> Book A Demo <em class="icon ni ni-arrow-right-circle ms-2"></em></a>
                                 </li>
-                            </ul>
+                            </ul> --}}
                         </div>
                     </div>
                 </div>
@@ -37,66 +37,69 @@
                             <div class="row gy-5">
                                 <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
                                     <div class="card flex-sm-row p-5">
-                                        <div class="flex-shrink-0 me-sm-4 mb-4 mb-sm-0"><img
-                                                src="images/project-manage/icon-one.png" alt="icon"
-                                                class="img-fluid flex-shrink"></div>
+                                        <div class="flex-shrink-0 me-sm-4 mb-4 mb-sm-0">
+                                            <img src="images/logo/simgos2.png" alt="icon" class="img-fluid flex-shrink" width="60">
+                                        </div>
                                         <div>
                                             <div class="mb-3">
-                                                <h6 class="mb-1">With You Everywhere</h6>
-                                                <p class="fs-16 text-gray-1200 line-clamp-2">What if you could get all your
-                                                    website tasks off your plate and focus only on the fun stuff.</p>
-                                            </div><a href="#" class="btn-link text-primary"><em
-                                                    class="icon ni ni-arrow-long-right"></em><span class="ms-2"> Download Apps
-                                                </span></a>
+                                                <h6 class="mb-1">SIMGOS Versi 2 [<b class="text-success">PRODUCTION</b>]</h6>
+                                                <p class="fs-16 text-gray-1200 line-clamp-2">Sistem Informasi Manajemen Generik Open Source sebagai SIMRS Utama untuk pelayanan pasien di Rumah Sakit.</p>
+                                            </div>
+                                            <a href="http://192.168.1.2/" class="btn-link text-primary" target="_blank">
+                                                <em class="icon ni ni-arrow-long-right"></em>
+                                                <span class="ms-2"> Buka Aplikasi</span>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6" data-aos="fade-up" data-aos-delay="50">
                                     <div class="card flex-sm-row p-5">
-                                        <div class="flex-shrink-0 me-sm-4 mb-4 mb-sm-0"><img
-                                                src="images/project-manage/icon-two.png" alt="icon"
-                                                class="img-fluid flex-shrink"></div>
+                                        <div class="flex-shrink-0 me-sm-4 mb-4 mb-sm-0">
+                                            <img src="images/logo/simgos2_dev.png" alt="icon" class="img-fluid flex-shrink" width="60">
+                                        </div>
                                         <div>
                                             <div class="mb-3">
-                                                <h6 class="mb-1">There’s a template for that</h6>
-                                                <p class="fs-16 text-gray-1200 line-clamp-2">I must explain to you how all this
-                                                    mistaken idea denou ncing plea sure and praising pain and typesetting.</p>
-                                            </div><a href="#" class="btn-link text-primary"><em
-                                                    class="icon ni ni-arrow-long-right"></em><span class="ms-2"> Start with
-                                                    templates </span></a>
+                                                <h6 class="mb-1">SIMGOS Versi 2 [<b class="text-danger">BACKUP</b>]</h6>
+                                                <p class="fs-16 text-gray-1200 line-clamp-2">Sistem Informasi Manajemen Generik Open Source sebagai SIMRS Backup untuk pelayanan pasien di Rumah Sakit.</p>
+                                            </div>
+                                            <a href="http://192.168.1.5/apps/SIMpel/" class="btn-link text-primary" target="_blank">
+                                                <em class="icon ni ni-arrow-long-right"></em>
+                                                <span class="ms-2"> Buka Aplikasi</span>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                                     <div class="card flex-sm-row p-5">
-                                        <div class="flex-shrink-0 me-sm-4 mb-4 mb-sm-0"><img
-                                                src="images/project-manage/icon-three.png" alt="icon"
-                                                class="img-fluid flex-shrink"></div>
+                                        <div class="flex-shrink-0 me-sm-4 mb-4 mb-sm-0">
+                                            <img src="images/logo/simrsmu.png" alt="icon" class="img-fluid flex-shrink" width="60">
+                                        </div>
                                         <div>
                                             <div class="mb-3">
-                                                <h6 class="mb-1">Connect with your other tools</h6>
-                                                <p class="fs-16 text-gray-1200 line-clamp-2">What if you could get all your
-                                                    website tasks off your plate and focus only on the fun stuff.</p>
-                                            </div><a href="#" class="btn-link text-primary"><em
-                                                    class="icon ni ni-arrow-long-right"></em><span class="ms-2"> See all
-                                                    features </span></a>
+                                                <h6 class="mb-1">SIMRSMu Versi 3.1</h6>
+                                                <p class="fs-16 text-gray-1200 line-clamp-2">Sistem Informasi khusus Karyawan internal Rumah Sakit untuk pengelolaan data manajemen.</p>
+                                            </div>
+                                            <a href="https://simrsmu.com/" class="btn-link text-primary" target="_blank">
+                                                <em class="icon ni ni-arrow-long-right"></em>
+                                                <span class="ms-2"> Buka Aplikasi</span>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
                                     <div class="card flex-sm-row p-5">
-                                        <div class="flex-shrink-0 me-sm-4 mb-4 mb-sm-0"><img
-                                                src="images/project-manage/icon-four.png" alt="icon"
-                                                class="img-fluid flex-shrink"></div>
+                                        <div class="flex-shrink-0 me-sm-4 mb-4 mb-sm-0">
+                                            <img src="images/logo/sirmed.png" alt="icon" class="img-fluid flex-shrink" width="60">
+                                        </div>
                                         <div>
                                             <div class="mb-3">
-                                                <h6 class="mb-1"> Make Nioland yours</h6>
-                                                <p class="fs-16 text-gray-1200 line-clamp-2">Praising pain and typesetting
-                                                    industry has been the indust standard dummy text ever since was complete.
-                                                </p>
-                                            </div><a href="#" class="btn-link text-primary"><em
-                                                    class="icon ni ni-arrow-long-right"></em><span class="ms-2"> Install
-                                                    integrations </span></a>
+                                                <h6 class="mb-1">S I R M E D</h6>
+                                                <p class="fs-16 text-gray-1200 line-clamp-2">Sistem Informasi Rekam Medis Elektronik untuk membantu rumah sakit dalam mengelola data rekam medis pasien secara aman, cepat, digital, dan terintegrasi.</p>
+                                            </div>
+                                            <a href="http://192.168.253.30:3711/" class="btn-link text-primary" target="_blank">
+                                                <em class="icon ni ni-arrow-long-right"></em>
+                                                <span class="ms-2"> Buka Aplikasi</span>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -108,7 +111,7 @@
             </div>
         </div>
     </section>
-    <section class="nk-section nk-section-features">
+    {{-- <section class="nk-section nk-section-features">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-10 col-xxl-8">
@@ -524,6 +527,6 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 </main>
 @endsection

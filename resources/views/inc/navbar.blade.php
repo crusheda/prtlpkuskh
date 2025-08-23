@@ -343,10 +343,15 @@
                 </ul>
             </li> --}}
             <li class="nk-nav-item">
-                <a href="{{ route('portal.index') }}" class="nk-nav-link">
+                <a href="{{ route('portal.index') }}" class="nk-nav-link {{ request()->routeIs('portal.index') ? 'text-primary' : '' }}">
                     <span class="nk-nav-text">Dashboard</span>
                 </a>
             </li>
+            {{-- <li class="nk-nav-item">
+                <a href="{{ route('kontak.index') }}" class="nk-nav-link {{ request()->routeIs('kontak.index') ? 'text-primary' : '' }}">
+                    <span class="nk-nav-text">Kontak IT</span>
+                </a>
+            </li> --}}
             {{-- <li class="nk-nav-item has-sub"><a href="#" class="nk-nav-link nk-nav-toggle"><span
                         class="nk-nav-text">Pages</span></a>
                 <ul class="nk-nav-sub nk-nav-mega row nk-nav-mega-lg">
