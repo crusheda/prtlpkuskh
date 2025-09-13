@@ -33,7 +33,7 @@
                             </div>
                             <div class="col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="50">
                                 <div class="team-card">
-                                    <div class="team-card-cover"><img src="https://nioland.themenio.com/images/team/g.png"
+                                    <div class="team-card-cover"><img src="https://nioland.themenio.com/images/team/f.png"
                                             alt="team-member" class="img-fluid"></div>
                                     <div class="team-card-details text-center flex-column">
                                         <h5 class="m-0 text-danger">Novi Setyawan</h5>
@@ -54,7 +54,7 @@
                             </div>
                             <div class="col-md-4 aos-init aos-animate mb-5" data-aos="fade-up" data-aos-delay="150">
                                 <div class="team-card">
-                                    <div class="team-card-cover"><img src="https://nioland.themenio.com/images/team/g.png"
+                                    <div class="team-card-cover"><img src="https://nioland.themenio.com/images/team/f.png"
                                             alt="team-member" class="img-fluid"></div>
                                     <div class="team-card-details text-center flex-column">
                                         <h5 class="m-0 text-dark">Shebil Arif W.</h5>
