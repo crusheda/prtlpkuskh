@@ -96,7 +96,7 @@
                                                 <h6 class="mb-1">S I R M E D</h6>
                                                 <p class="fs-16 text-gray-1200 line-clamp-2">Sistem Informasi Rekam Medis Elektronik untuk membantu rumah sakit dalam mengelola data rekam medis pasien secara aman, cepat, digital, dan terintegrasi.</p>
                                             </div>
-                                            <a href="http://192.168.253.30:3711/" class="btn-link text-primary" target="_blank">
+                                            <a href="https://sirmed.rspkusukoharjo.com:3711/" class="btn-link text-primary" target="_blank">
                                                 <em class="icon ni ni-arrow-long-right"></em>
                                                 <span class="ms-2"> Buka Aplikasi</span>
                                             </a>
